@@ -1,0 +1,24 @@
+body{
+
+margin: 0px;
+padding: 0px;
+}
+div{
+    background-color:lightcyan ;
+    color: darkred;
+    text-align: center;
+    padding: 50px;
+    border: 2px solid gray;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height:40px;
+}
+div img{
+height: 500px;
+width: 500px;
+}
