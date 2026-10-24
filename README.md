@@ -1,15 +1,14 @@
 # 👟 Shoe Store Website
 
-Welcome to my **Shoe Store Website** repository! This project showcases a modern and stylish online shoe store designed to display trendy footwear with a clean and user-friendly interface.
+A modern and stylish shoe store website showcasing trendy footwear with a clean design and user-friendly interface.
 
-## 🌟 Features
+## ✨ Features
 
 - 👟 Stylish shoe collection
 - 🎨 Modern and attractive UI
-- 📱 Responsive design for different screen sizes
+- 📱 Responsive design
 - 🛍️ Easy product browsing
-- ⚡ Clean and organized layout
-- ✨ User-friendly experience
+- ⚡ Clean and user-friendly layout
 
 ## 🛠️ Technologies Used
 
@@ -19,58 +18,24 @@ Welcome to my **Shoe Store Website** repository! This project showcases a modern
 
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally.
+Clone this repository and open the project on your computer.
 
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/shoe-store-website.git
-   ```
-
-2. Open the project folder:
-
-   ```bash
-   cd shoe-store-website
-   ```
-
-3. Open `index.html` in your browser.
-
-## 📂 Project Structure
-
-```text
-shoe-store-website/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-└── README.md
+```bash
+git clone https://github.com/MalaliRazMuhammad/shoe-store.git
 ```
 
-*Note: Update the file structure above to match your actual project.*
-
-## 📸 Screenshots
-
-Add screenshots of your website here to showcase its design and features.
-
-## 🔮 Future Improvements
-
-- Add shopping cart functionality
-- Add product filtering and search
-- Integrate online payment options
-- Add user authentication
-- Connect to a product database
+Open the project folder and launch `index.html` in your browser.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Malali Raz Muhammad**
 
-- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+- GitHub: [@MalaliRazMuhammad](https://github.com/MalaliRazMuhammad)
 
-## 📄 License
+## 📌 Project Status
 
-This project is open source and available under the [MIT License](LICENSE).
+🚧 This project is under development.
 
 ---
 
-⭐ If you like this project, consider giving the repository a star!
-
+⭐ If you like this project, consider giving it a star!
