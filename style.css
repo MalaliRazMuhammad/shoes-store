@@ -292,23 +292,6 @@ button:hover {
     background-color: #ff6b35;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .products {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .shoe-box {
-        width: 90%;
-    }
-}
 
 
 /* ---------- About ---------- */
@@ -525,39 +508,203 @@ button:hover {
     .contact p {
         font-size: 15px;
     }
-}
+* MOBILE SCREEN RESPONSIVE */
 
-/* Small Mobile Screens */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
-    .hero h1 {
-        font-size: 40px;
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 
-    .hero-shoe {
-        height: 250px;
+    img {
+        max-width: 100%;
+        height: auto;
     }
 
-    .shoe-circle {
-        width: 210px;
-        height: 210px;
-    }
-
-    .shoe {
-        font-size: 120px;
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
     }
 
     .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 15px;
+        gap: 25px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
     }
 
-    .btn {
-        padding: 12px 18px;
-        font-size: 13px;
+    /* Shoes Image */
+    .hero-shoe {
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .shoe-circle {
+        max-width: 100%;
+    }
+
+    .shoe {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* Features */
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 15px;
+    }
+
+    /* Products */
+    .products {
+        padding: 30px 15px;
+    }
+
+    .products h2 {
+        font-size: 26px;
+        text-align: center;
     }
 
     .shoe-box {
-        padding: 15px;
+        width: 100%;
+        max-width: 350px;
+        margin: 15px auto;
     }
+
+    .shoe-box img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* About Section */
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 15px;
+        gap: 20px;
+    }
+
+    .about-image,
+    .about-text {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-text h2 {
+        font-size: 26px;
+    }
+
+    /* Contact */
+    .contact {
+        padding: 25px 15px;
+        text-align: center;
+    }
+
+    /* Buttons */
+    button {
+        max-width: 100%;
+    }
+
+}
+
+
+/* SMALL MOBILE SCREENS */
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        padding: 12px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 20px 12px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .hero-text p {
+        font-size: 13px;
+    }
+
+    .hero-shoe {
+        max-width: 280px;
+    }
+
+    .products {
+        padding: 25px 12px;
+    }
+
+    .products h2 {
+        font-size: 23px;
+    }
+
+    .shoe-box {
+        padding: 12px;
+    }
+
+    .about-text h2 {
+        font-size: 23px;
+    }
+
 }
 ```
+        
+
